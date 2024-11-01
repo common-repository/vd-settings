@@ -1,0 +1,111 @@
+.vd_fieldset_group  { 
+    background-color: transparent;
+    max-width: 300px;
+    padding:16px;
+    border: 1px solid #23282d;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+legend {
+    margin-bottom:0px;
+    margin-left:8px;
+}
+
+
+.saved_message {
+    width:300px;
+    height:20px;
+    opacity: 0.6;
+    font-size: 18px;
+}
+
+.main_title {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+
+}
+
+.settings {
+    width: auto;
+    margin-top: 15px;
+    background-color: #FCFCFC;
+    padding: 10px;
+}
+
+.settings input[type="text"] {
+    width: 260px;
+}
+
+p input[type="radio"] {
+    margin-right: 5px;
+}
+
+.settings label {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.settings input[type="submit"] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border: none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    width: 70px;
+}
+
+input[type="submit"]:hover {
+    border-color: red; 
+}
+
+.tooltip{
+    display: inline-block;
+    position: relative;
+}
+
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+.tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+em {
+    background: #ccc;
+    border-radius: 15px;
+    border: 1px solid #999;
+    text-align: center;
+    color: #FFF;
+    font: normal bold 12px Arial;
+    padding: 0 3px 0 3px;
+
+}
+
+em:hover {
+    background: #fff;
+    color: #000000;
+    cursor: pointer;
+}
